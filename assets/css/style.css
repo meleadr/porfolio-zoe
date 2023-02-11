@@ -1,0 +1,131 @@
+/* FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;500&display=swap');
+
+
+*{
+	font-family: 'KoHo', serif;
+	font-size: 1.3rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+	text-transform: uppercase;
+}
+
+nav{
+	font-weight: 200;
+	text-transform: uppercase;
+	color: #707070;
+	background-color: white;
+}
+
+nav li{
+	margin-left: 1.3rem;
+}
+
+
+.navbar-expand-lg .navbar-collapse {
+	justify-content: end !important;
+}
+
+
+h1{
+	font-size: 3.5rem;
+	color: white;
+	-webkit-text-stroke: 1px #FF9898;
+	margin-top: 15rem;
+	margin-left: 4rem;
+}
+
+h2{
+	font-size: 2rem;
+	color: #707070;
+	font-weight: 300;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.6rem;
+	color: #A8D4FF;
+	font-weight: 200;
+}
+
+h4{
+	font-size: 1.2rem;
+	color: black;
+	font-weight: 300;
+}
+
+p{
+	font-size: 1.2rem;
+	color: black;
+	font-weight: 300;
+}
+
+.parcours{
+	color:#707070;
+}
+
+#accueil{
+	height: 100vh;
+}
+
+#fond_accueil{
+	z-index: -1;
+	width: 30rem;
+	height: auto;
+	position: absolute;
+	top: 0;
+	overflow: visible;
+}
+
+#profil{
+	margin-bottom: 5rem;
+}
+
+#prenom_nom{
+	text-transform: uppercase;
+}
+
+#nom{
+	font-size: 3rem;
+	font-weight: 300;
+	color: white;
+	transform: rotate(-90deg);
+	margin-top: 7rem;
+}
+
+#desc{
+	font-weight: 300;
+	text-align: center;
+	margin-left: 4rem;
+}
+
+#div_avatar_1{
+	text-align: end;
+}
+
+#avatar_1{
+	width: 18rem;
+	height: auto;
+	border-radius: 50%;
+	margin-top: 2rem;
+}
+
+#competences{
+	text-align: center;
+	margin-top: 7rem;
+}
+
+.card{
+	border: none;
+	font-weight: 200;
+	font-size: 1.5rem;
+	color: #707070;
+}
+
+.card-text{
+	font-size: 1.3rem;
+	font-weight: 200;
+	color: #707070;
+}
